@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 
 # Parse the couplings data
-data = read.csv("mypfam/PF02470_uniprot_hmm.psicov", header = F, sep = " ")
+data = read.csv("mypfam/family_uniprot_hmm.psicov", header = F, sep = " ")
 names(data) = c("R1", "R2", "A", "B", "prob")
 
 # Just take the top 100 couplings

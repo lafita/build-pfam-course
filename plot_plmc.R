@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 
 # Parse the couplings data
-data = read.csv("mypfam/PF02470_full_couplings.txt", header = F, sep = " ")
+data = read.csv("mypfam/family_uniprot_couplings.txt", header = F, sep = " ")
 names(data) = c("RES_I", "FOCUS_AI", "RES_J", "FOCUS_AJ", "0", "SCORE")
 
 # Plot the correlation matrix 
