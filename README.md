@@ -5,5 +5,5 @@ This is a tutorial-style project ran during the **EIPP Bioinformatics Course** a
 This repository contains some of the materials for the course and the results for the example protein.
 Tutorial handouts can be found at https://goo.gl/NQBuWm (2018) and https://tinyurl.com/eipp2019 (2019).
 
-Hope you find it useful,
+Hope you find it useful!
 Aleix
