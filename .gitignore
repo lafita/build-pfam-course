@@ -1,3 +1,15 @@
+# Output files
+*.tsv
+*.png
+*.pdf
+*.psicov
+*.fa
+*.fasta
+*.aln
+*.sto
+*.txt
+*.hmm
+
 # History files
 .Rhistory
 .Rapp.history

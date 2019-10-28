@@ -4,8 +4,10 @@
 library(ggplot2)
 library(dplyr)
 
+input = "mypfam/family_uniprot_couplings.txt"
+
 # Parse the couplings data
-data = read.csv("mypfam/family_uniprot_couplings.txt", header = F, sep = " ")
+data = read.csv(input, header = F, sep = " ")
 names(data) = c("RES_I", "FOCUS_AI", "RES_J", "FOCUS_AJ", "0", "SCORE")
 
 # Plot the correlation matrix 
@@ -18,7 +20,7 @@ p = ggplot(data) +
     panel.grid = element_blank()
   ) +
   scale_fill_gradient2() +
-  scale_x_reverse()
+  scale_y_reverse()
 
 # Save the plot to a file
 pdf("mypfam/family_couplings.pdf", width = 5.5, height = 5)
