@@ -4,7 +4,7 @@
 library(ggplot2)
 library(dplyr)
 
-input = "mypfam/family_uniprot_hmm.psicov"
+input = "ALIGN.psicov"
 
 # Parse the couplings data
 data = read.csv(input, header = F, sep = " ")
@@ -27,7 +27,7 @@ p = ggplot(data.filter) +
   xlim(min(data$R1), max(data$R1))
 
 # Save the plot to a file
-pdf("mypfam/family_psicov.pdf", width = 5.5, height = 5)
+pdf("psicov_matrix.pdf", width = 5.5, height = 5)
 print(p)
 dev.off()
 

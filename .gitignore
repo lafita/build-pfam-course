@@ -2,13 +2,18 @@
 *.tsv
 *.png
 *.pdf
-*.psicov
 *.fa
 *.fasta
+*.pfam
 *.aln
 *.sto
 *.txt
 *.hmm
+*.psicov
+*.domtblout
+ALIGN*
+PFAMOUT*
+DOMTBLOUT*
 
 # History files
 .Rhistory
